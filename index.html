@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="card-body">
+      <div id="card-title">
+        <h1>
+          Generate a <br />
+          <span>random password</span>
+        </h1>
+        <p>Never use an insecure password again</p>
+      </div>
+      <div id="gen-btn">
+        <button id="btn" onclick="renderPsw()">Generate passwords</button>
+        <button id="reset-btn" onclick="resetPsw()">Reset passwords</button>
+      </div>
+      <hr />
+      <div id="psw-content">
+        <div id="psw-gen-one"></div>
+        <div id="psw-gen-two"></div>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
