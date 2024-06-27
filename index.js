@@ -101,7 +101,7 @@ function genPsw() {
   let pswArray = [];
   let pswArray2 = [];
   if (isActive) {
-    for (let i = 0; i < 9; i++) {
+    for (let i = 0; i < 16; i++) {
       pswArray.push(randNumberGen());
       pswArray2.push(randNumberGen());
     }
